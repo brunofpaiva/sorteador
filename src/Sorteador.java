@@ -9,25 +9,28 @@ public class Sorteador {
 		
 		ArrayList<Jogador> jogadores = new ArrayList<Jogador>();
 		
-		jogadores.add(new Jogador("Pedal", Nivel.CABECA));
+		jogadores.add(new Jogador("Braulio", Nivel.CABECA));
 		jogadores.add(new Jogador("Bruno", Nivel.CABECA));
 		jogadores.add(new Jogador("Sergio", Nivel.CABECA));
 		jogadores.add(new Jogador("Ricardo", Nivel.CABECA));
-		jogadores.add(new Jogador("Braulio", Nivel.ASPIRA));
-		jogadores.add(new Jogador("Root", Nivel.ASPIRA));
+
+		jogadores.add(new Jogador("Palitot", Nivel.ASPIRA));
+		jogadores.add(new Jogador("Netto", Nivel.ASPIRA));
 		jogadores.add(new Jogador("Kinho", Nivel.ASPIRA));
-		jogadores.add(new Jogador("Hermano", Nivel.ASPIRA));
-		jogadores.add(new Jogador("Alessandro", Nivel.NORMAL));
-		jogadores.add(new Jogador("Carlos", Nivel.NORMAL));
-		jogadores.add(new Jogador("Fabio", Nivel.NORMAL));
-		jogadores.add(new Jogador("Raul", Nivel.NORMAL));
-		jogadores.add(new Jogador("Victor", Nivel.NORMAL));
-		jogadores.add(new Jogador("Catatau", Nivel.NORMAL));
+		jogadores.add(new Jogador("Root", Nivel.ASPIRA));
+
+		jogadores.add(new Jogador("Antonio Neto", Nivel.NORMAL));
+        jogadores.add(new Jogador("Fabio", Nivel.NORMAL));
+        jogadores.add(new Jogador("Hermano", Nivel.NORMAL));
 		jogadores.add(new Jogador("Dudu", Nivel.NORMAL));
-		jogadores.add(new Jogador("Tony", Nivel.NORMAL));
+		jogadores.add(new Jogador("Lucas", Nivel.NORMAL));
+		jogadores.add(new Jogador("Charles", Nivel.NORMAL));
+		jogadores.add(new Jogador("Lobo", Nivel.NORMAL));
+		jogadores.add(new Jogador("Victor", Nivel.NORMAL));
+
 		jogadores.add(new Jogador("Pedro Rafael", Nivel.ANTI));
-		jogadores.add(new Jogador("Antonio Neto", Nivel.ANTI));
-		jogadores.add(new Jogador("Daniel Pontes", Nivel.ANTI));
+		jogadores.add(new Jogador("Raul", Nivel.ANTI));
+		jogadores.add(new Jogador("Daniel", Nivel.ANTI));
 		jogadores.add(new Jogador("Matheus Barreto", Nivel.ANTI));
 		
 		Time time1 = new Time("Time 1");

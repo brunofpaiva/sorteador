@@ -8,7 +8,7 @@ public class Time {
 	
 	public Time(String nomeTime) {
 		this.mNomeTime = nomeTime;
-		mJogadores = new ArrayList<>();
+		mJogadores = new ArrayList<Jogador>();
 	}
 	
 	public String getNomeTime() {
